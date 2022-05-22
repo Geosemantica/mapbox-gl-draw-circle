@@ -1,5 +1,5 @@
 {
-  "name": "mapbox-gl-draw-circle",
+  "name": "customized-mapbox-gl-draw-circle",
   "version": "1.1.2",
   "description": "A module to draw a circle using mapbox-gl-draw",
   "main": "index",
@@ -14,7 +14,7 @@
     "mapbox",
     "draw"
   ],
-  "author": "Anvesh Kumar Arrabochu",
+  "author": "Anvesh Kumar Arrabochu, Mohamed DIDI",
   "license": "MIT",
   "dependencies": {
     "@mapbox/mapbox-gl-draw": "1.1.1",
@@ -29,6 +29,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/iamanvesh/mapbox-gl-draw-circle"
+    "url": "git+https://github.com/dj-death/mapbox-gl-draw-circle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dj-death/mapbox-gl-draw-circle/issues"
+  },
+  "homepage": "https://github.com/dj-death/mapbox-gl-draw-circle#readme",
+  "directories": {
+    "lib": "lib"
   }
 }
